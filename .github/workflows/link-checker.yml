@@ -1,17 +1,13 @@
 name: Check Markdown links
 
-on:
-  push:
-    branches:
-      - latest
+on: [pull_request]
 
 jobs:
   markdown-link-check:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
-    - uses: gaurav-nelson/github-action-markdown-link-check@v1
+    - uses: gaurav-nelson/github-action-markdown-link-check@5c5dfc0ac2e225883c0e5f03a85311ec2830d368
       with:
         config-file: 'mlc_config.json'
         base-branch: latest
-      continue-on-error: true

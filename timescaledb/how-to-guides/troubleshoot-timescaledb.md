@@ -1,8 +1,8 @@
 # Troubleshooting
 
 If you run into problems when using TimescaleDB, there are a few things that you
-can do.  There are some solutions to common errors below as well as ways to output
-diagnostic information about your setup.  If you need more guidance, you can join
+can do. There are some solutions to common errors below as well as ways to output
+diagnostic information about your setup. If you need more guidance, you can join
 the support [slack group][slack] or post an issue on the TimescaleDB [github][].
 
 ## Common errors
@@ -10,9 +10,9 @@ the support [slack group][slack] or post an issue on the TimescaleDB [github][].
 ### Error updating TimescaleDB when using a third-party PostgreSQL admin tool
 
 The update command `ALTER EXTENSION timescaledb UPDATE` must be the first command
-executed upon connection to a database.  Some admin tools execute command before
-this, which can disrupt the process.  It may be necessary for you to manually update
-the database with `psql`.  See our [update docs][update-db] for details.
+executed upon connection to a database. Some admin tools execute command before
+this, which can disrupt the process. It may be necessary for you to manually update
+the database with `psql`. See our [update docs][update-db] for details.
 
 ###  Log error: could not access file "timescaledb" [](access-timescaledb)
 

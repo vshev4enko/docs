@@ -1,6 +1,9 @@
-# Troubleshoot upgrades
-This section contains some ideas for troubleshooting common problems experienced
-with upgrading TimescaleDB.
+---
+title: Error updating TimescaleDB when using a third-party PostgreSQL admin tool
+topics: [update]
+keywords: [update, third-party tools]
+tags: [update, third-party tools]
+---
 
 <!---
 * Keep this section in alphabetical order
@@ -12,7 +15,6 @@ with upgrading TimescaleDB.
 * Copy this comment at the top of every troubleshooting page
 -->
 
-## Error updating TimescaleDB when using a third-party PostgreSQL admin tool
 The update command `ALTER EXTENSION timescaledb UPDATE` must be the first command
 executed upon connection to a database. Some admin tools execute commands before
 this, which can disrupt the process. Try manually updating the database with

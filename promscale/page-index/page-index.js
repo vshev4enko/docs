@@ -338,13 +338,6 @@ module.exports = [
           "Learn about the different database roles and permissions Promscale defines",
       },
       {
-        title: "Troubleshooting Promscale",
-        href: "troubleshooting",
-        tags: ["promscale", "learn", "troubleshooting", "prometheus"],
-        keywords: ["Promscale", "troubleshooting"],
-        excerpt: "Troubleshooting Promscale",
-      },
-      {
         title: 'Promscale CLI reference',
         href: 'cli',
         tags: ['promscale', 'CLI', 'reference'],

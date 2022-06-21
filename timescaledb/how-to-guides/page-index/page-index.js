@@ -104,13 +104,6 @@ module.exports = [
             keywords: ["hypertables", "TimescaleDB"],
             excerpt: "Drop hypertables",
           },
-          {
-            title: "Troubleshoot hypertables",
-            href: "troubleshooting",
-            tags: ["hypertables", "tshoot", "timescaledb"],
-            keywords: ["hypertables", "troubleshooting", "TimescaleDB"],
-            excerpt: "Troubleshooting and error fixes for hypertables",
-          },
         ],
       },
       {
@@ -281,13 +274,6 @@ module.exports = [
             keywords: ["migrate", "data", "influxdb", "TimescaleDB"],
             excerpt: "Migrate data from an existing InfluxDB database",
           },
-          {
-            title: "Troubleshoot data migration",
-            href: "troubleshoot-data-migration",
-            tags: ["troubleshooting", "migrate", "data", "timescaledb"],
-            keywords: ["troubleshooting", "migrate", "data", "TimescaleDB"],
-            excerpt: "Troubleshoot problems that occur during  data migration",
-          }
         ],
       },
       {
@@ -550,13 +536,6 @@ module.exports = [
             keywords: ["retention", "data", "TimescaleDB"],
             excerpt: "Manually drop chunks",
           },
-          {
-            title: "Troubleshooting data retention",
-            href: "troubleshooting",
-            tags: ["retention", "data", "tshoot", "timescaledb"],
-            keywords: ["retention", "data", "troubleshooting", "TimescaleDB"],
-            excerpt: "Troubleshoot data retention",
-          },
         ],
       },
       {
@@ -625,13 +604,6 @@ module.exports = [
             tags: ["caggs", "compression", "timescaledb"],
             keywords: ["caggs", "compression", "TimescaleDB"],
             excerpt: "Compress continuous aggregates",
-          },
-          {
-            title: "Troubleshoot continuous aggregates",
-            href: "troubleshooting",
-            tags: ["caggs", "tshoot", "timescaledb"],
-            keywords: ["caggs", "TimescaleDB"],
-            excerpt: "Troubleshoot continuous aggregates",
           },
         ],
       },
@@ -777,13 +749,6 @@ module.exports = [
             keywords: ["TimescaleDB", "downgrade"],
             excerpt: "Downgrade a TimescaleDB version",
           },
-          {
-            title: "Troubleshoot upgrades",
-            href: "troubleshoot",
-            tags: ["upgrade", "postgresql", "timescaledb", "tshoot"],
-            keywords: ["upgrade", "PostgreSQL", "TimescaleDB", "troubleshooting"],
-            excerpt: "Troubleshoot issues with upgrading PostgreSQL and TimescaleDB",
-          },
         ],
       },
       {
@@ -926,18 +891,6 @@ module.exports = [
                 excerpt: "Learn about the time-weighted averages hyperfunction",
               },
             ],
-          },
-          {
-            title: "Troubleshoot hyperfunctions",
-            href: "troubleshoot-hyperfunctions",
-            tags: ["hyperfunctions", "toolkit", "tshoot", "timescaledb"],
-            keywords: [
-              "TimescaleDB",
-              "hyperfunctions",
-              "Toolkit",
-              "troubleshoot"
-            ],
-            excerpt: "Troubleshoot problems with hyperfunctions and TimescaleDB Toolkit",
           },
         ],
       },
